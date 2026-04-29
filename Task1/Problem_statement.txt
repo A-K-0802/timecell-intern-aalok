@@ -1,0 +1,112 @@
+RISK METRICS ANALYSIS — PROBLEM STATEMENT
+
+---
+
+## THE PROBLEM
+
+You are given a portfolio of assets. Your task is to compute key financial risk metrics that a wealth manager would use to evaluate whether the portfolio is financially safe under adverse market conditions.
+
+---
+
+## INPUT
+
+A Python dictionary representing a portfolio:
+
+portfolio = {
+"total_value_inr": 10_000_000,   # Total portfolio value (1 Crore INR)
+"monthly_expenses_inr": 80_000,  # Monthly expenses
+"assets": [
+{"name": "BTC", "allocation_pct": 30, "expected_crash_pct": -80},
+{"name": "NIFTY50", "allocation_pct": 40, "expected_crash_pct": -40},
+{"name": "GOLD", "allocation_pct": 20, "expected_crash_pct": -15},
+{"name": "CASH", "allocation_pct": 10, "expected_crash_pct": 0},
+]
+}
+
+---
+
+## OBJECTIVE
+
+Implement a Python function:
+
+```
+compute_risk_metrics(portfolio)
+```
+
+This function should analyze the portfolio under a crash scenario and return key risk metrics.
+
+---
+
+## REQUIRED OUTPUT METRICS
+
+Your function must return a dictionary containing:
+
+1. post_crash_value
+   → Total portfolio value after applying the crash scenario to all assets
+
+2. runway_months
+   → Number of months the portfolio can sustain the given monthly expenses after the crash
+
+3. ruin_test
+   → A safety indicator:
+   "PASS" if runway_months > 12
+   "FAIL" otherwise
+
+4. largest_risk_asset
+   → The asset that contributes the most to potential loss
+   → Based on: allocation × crash magnitude
+
+5. concentration_warning
+   → Boolean flag:
+   True if any asset allocation exceeds 40%
+   False otherwise
+
+---
+
+## BONUS TASKS (OPTIONAL)
+
+1. Moderate Crash Scenario
+
+   * Create a second scenario where each asset crashes at 50% of its expected crash magnitude
+   * Compute all the above metrics for both:
+
+     * Severe crash
+     * Moderate crash
+   * Present results side by side
+
+2. CLI Visualization
+
+   * Display asset allocation as a simple command-line bar chart
+   * Do not use external libraries
+
+---
+
+## EVALUATION CRITERIA
+
+1. Correctness (12 points)
+
+   * Accurate calculations
+   * Proper handling of edge cases
+
+2. Code Clarity (10 points)
+
+   * Clean structure
+   * Meaningful variable names
+   * Modular functions
+
+3. AI Usage (8 points)
+
+   * Effective use of AI tools (e.g., Copilot, Claude)
+   * Document usage in README
+
+---
+
+## NOTES
+
+* Percentages are given in integer form (e.g., 30 means 30%)
+* Crash percentages are negative values (e.g., -80 means an 80% drop)
+* Ensure robust handling of edge cases (e.g., zero expenses, empty assets)
+
+---
+
+## END OF PROBLEM STATEMENT

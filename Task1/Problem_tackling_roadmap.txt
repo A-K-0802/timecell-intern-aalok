@@ -1,0 +1,208 @@
+RISK METRICS TASK — STEP-BY-STEP ROADMAP
+
+---
+
+1. UNDERSTAND THE INPUT STRUCTURE
+
+---
+
+* You are given a dictionary with:
+
+  * total portfolio value
+  * monthly expenses
+  * list of assets
+* Each asset has:
+
+  * name
+  * allocation percentage
+  * expected crash percentage
+
+Goal:
+Simulate what happens to the portfolio under a crash and compute risk metrics.
+
+---
+
+2. VALIDATE INPUT (IMPORTANT FOR EDGE CASES)
+
+---
+
+Before doing any calculations:
+
+* Check if asset list is empty
+* Check if allocations sum to ~100 (optional: normalize or warn)
+* Handle:
+
+  * allocation = 0
+  * monthly_expenses = 0
+  * total_value = 0
+
+---
+
+3. COMPUTE POST-CRASH VALUE (CORE LOGIC)
+
+---
+
+For each asset:
+Step 1: Compute current value
+asset_value = total_value * (allocation_pct / 100)
+
+Step 2: Apply crash
+post_crash_value = asset_value * (1 + crash_pct / 100)
+
+Step 3: Accumulate
+Add all post-crash values
+
+Final:
+total_post_crash_value = sum of all assets after crash
+
+---
+
+4. COMPUTE RUNWAY (SURVIVAL TIME)
+
+---
+
+Formula:
+runway_months = post_crash_value / monthly_expenses
+
+Handle edge cases:
+
+* If monthly_expenses == 0 → return infinity or large number
+* If post_crash_value == 0 → runway = 0
+
+---
+
+5. RUIN TEST
+
+---
+
+Rule:
+
+* If runway_months > 12 → "PASS"
+* Else → "FAIL"
+
+---
+
+6. FIND LARGEST RISK ASSET
+
+---
+
+For each asset:
+risk_score = allocation_pct * abs(crash_pct)
+
+Reason:
+
+* Captures both exposure (allocation)
+* And severity (crash)
+
+Then:
+Pick asset with maximum risk_score
+
+---
+
+7. CHECK CONCENTRATION RISK
+
+---
+
+Rule:
+
+* If any asset allocation > 40%
+  → concentration_warning = True
+* Else → False
+
+---
+
+8. COMBINE RESULTS INTO OUTPUT
+
+---
+
+Return dictionary:
+
+{
+"post_crash_value": ...,
+"runway_months": ...,
+"ruin_test": ...,
+"largest_risk_asset": ...,
+"concentration_warning": ...
+}
+
+---
+
+9. BONUS: MODERATE CRASH SCENARIO
+
+---
+
+Create second scenario:
+
+* Reduce crash severity by half
+
+  moderate_crash = crash_pct * 0.5
+
+Recompute:
+
+* post_crash_value
+* runway
+* ruin_test
+
+Final structure:
+
+{
+"severe": { ... },
+"moderate": { ... }
+}
+
+---
+
+10. BONUS: CLI BAR CHART
+
+---
+
+Goal:
+Visualize allocations
+
+Steps:
+
+* For each asset:
+  bar_length = allocation_pct // 2
+  print "█" * bar_length
+
+Example:
+BTC     | ███████████████ (30%)
+
+---
+
+11. CODE STRUCTURE (RECOMMENDED)
+
+---
+
+Break into functions:
+
+* compute_post_crash_value()
+* compute_runway()
+* compute_ruin_test()
+* find_largest_risk_asset()
+* check_concentration()
+* compute_risk_metrics()
+
+Keep:
+
+* Logic separate from printing
+* Functions small and focused
+
+---
+
+12. FINAL CHECKLIST
+
+---
+
+Before submission:
+
+* Math is correct
+* Edge cases handled
+* Code is clean and readable
+* Variable names are meaningful
+* No repeated logic
+* Output format matches requirements
+
+---
+
+## END OF ROADMAP
