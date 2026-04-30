@@ -1,0 +1,7 @@
+{
+  "total_value_inr": "ten million",
+  "monthly_expenses_inr": "eighty thousand",
+  "assets": [
+    {"name": 123, "allocation_pct": "forty", "expected_crash_pct": "minus thirty"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "total_value_inr": 6000000,
+  "monthly_expenses_inr": 50000,
+  "assets": [
+    {"name": "Cash", "allocation_pct": 70, "expected_crash_pct": 0},
+    {"name": "Short Term Debt", "allocation_pct": 20, "expected_crash_pct": -3},
+    {"name": "Gold", "allocation_pct": 10, "expected_crash_pct": -10}
+  ]
+}

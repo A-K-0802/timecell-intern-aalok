@@ -1,0 +1,9 @@
+{
+  "total_value_inr": 8000000,
+  "monthly_expenses_inr": 100000,
+  "assets": [
+    {"name": "Equity A", "allocation_pct": 60, "expected_crash_pct": -35},
+    {"name": "Equity B", "allocation_pct": 30, "expected_crash_pct": -40},
+    {"name": "Gold", "allocation_pct": 20, "expected_crash_pct": -10}
+  ]
+}

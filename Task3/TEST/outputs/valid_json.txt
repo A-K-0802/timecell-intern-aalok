@@ -1,0 +1,1 @@
+{"summary":"The portfolio is moderately diversified with a sensible equity-and-bonds split.","good_thing":"You keep a cash buffer and avoid over-concentration in one asset.","improvement":"Increase high-quality bonds slightly if your time horizon is short.","verdict":"Balanced"}

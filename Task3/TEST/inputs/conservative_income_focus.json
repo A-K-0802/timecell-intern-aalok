@@ -1,0 +1,11 @@
+{
+  "total_value_inr": 18000000,
+  "monthly_expenses_inr": 120000,
+  "assets": [
+    {"name": "Government Bonds", "allocation_pct": 45, "expected_crash_pct": -5},
+    {"name": "Corporate Debt", "allocation_pct": 20, "expected_crash_pct": -10},
+    {"name": "Dividend Equity", "allocation_pct": 15, "expected_crash_pct": -22},
+    {"name": "Gold", "allocation_pct": 10, "expected_crash_pct": -12},
+    {"name": "Cash", "allocation_pct": 10, "expected_crash_pct": 0}
+  ]
+}

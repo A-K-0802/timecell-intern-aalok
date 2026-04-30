@@ -1,0 +1,4 @@
+{
+  "summary": "The portfolio is understandable and easy to follow.",
+  "verdict": "Balanced"
+}

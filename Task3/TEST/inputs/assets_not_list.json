@@ -1,0 +1,9 @@
+{
+  "total_value_inr": 5000000,
+  "monthly_expenses_inr": 90000,
+  "assets": {
+    "name": "Index Fund",
+    "allocation_pct": 100,
+    "expected_crash_pct": -30
+  }
+}

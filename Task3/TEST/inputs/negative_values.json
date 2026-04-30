@@ -1,0 +1,8 @@
+{
+  "total_value_inr": -5000000,
+  "monthly_expenses_inr": -120000,
+  "assets": [
+    {"name": "Broken Entry", "allocation_pct": -20, "expected_crash_pct": -50},
+    {"name": "Cash", "allocation_pct": 120, "expected_crash_pct": 0}
+  ]
+}

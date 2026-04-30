@@ -1,0 +1,122 @@
+[
+  {
+    "id": "input_balanced_standard",
+    "type": "input",
+    "path": "inputs/balanced_standard.json",
+    "expected_category": "balanced"
+  },
+  {
+    "id": "input_aggressive_crypto_heavy",
+    "type": "input",
+    "path": "inputs/aggressive_crypto_heavy.json",
+    "expected_category": "aggressive"
+  },
+  {
+    "id": "input_conservative_income_focus",
+    "type": "input",
+    "path": "inputs/conservative_income_focus.json",
+    "expected_category": "conservative"
+  },
+  {
+    "id": "input_cash_heavy_edge",
+    "type": "input",
+    "path": "inputs/cash_heavy_edge.json",
+    "expected_category": "conservative"
+  },
+  {
+    "id": "input_zero_cash_buffer",
+    "type": "input",
+    "path": "inputs/zero_cash_buffer.json",
+    "expected_category": "aggressive"
+  },
+  {
+    "id": "input_high_expense_ratio",
+    "type": "input",
+    "path": "inputs/high_expense_ratio.json",
+    "expected_category": "conservative"
+  },
+  {
+    "id": "input_missing_keys",
+    "type": "input",
+    "path": "inputs/missing_required_keys.json",
+    "expected_category": "invalid"
+  },
+  {
+    "id": "input_assets_not_list",
+    "type": "input",
+    "path": "inputs/assets_not_list.json",
+    "expected_category": "invalid"
+  },
+  {
+    "id": "input_empty_assets",
+    "type": "input",
+    "path": "inputs/empty_assets.json",
+    "expected_category": "edge"
+  },
+  {
+    "id": "input_bad_types",
+    "type": "input",
+    "path": "inputs/bad_types.json",
+    "expected_category": "invalid"
+  },
+  {
+    "id": "input_negative_values",
+    "type": "input",
+    "path": "inputs/negative_values.json",
+    "expected_category": "invalid"
+  },
+  {
+    "id": "input_allocations_over_100",
+    "type": "input",
+    "path": "inputs/allocations_over_100.json",
+    "expected_category": "edge"
+  },
+  {
+    "id": "output_valid_json",
+    "type": "output",
+    "path": "outputs/valid_json.txt",
+    "expected_category": "parseable_json"
+  },
+  {
+    "id": "output_markdown_fenced_json",
+    "type": "output",
+    "path": "outputs/markdown_fenced_json.txt",
+    "expected_category": "parseable_json"
+  },
+  {
+    "id": "output_extra_prose",
+    "type": "output",
+    "path": "outputs/extra_prose_around_json.txt",
+    "expected_category": "parseable_json"
+  },
+  {
+    "id": "output_wrong_verdict",
+    "type": "output",
+    "path": "outputs/wrong_verdict_value.txt",
+    "expected_category": "schema_error"
+  },
+  {
+    "id": "output_missing_fields",
+    "type": "output",
+    "path": "outputs/missing_fields.txt",
+    "expected_category": "schema_error"
+  },
+  {
+    "id": "output_single_quotes",
+    "type": "output",
+    "path": "outputs/single_quotes_and_trailing_comma.txt",
+    "expected_category": "parse_error"
+  },
+  {
+    "id": "output_nested_json_in_text",
+    "type": "output",
+    "path": "outputs/nested_json_in_text.txt",
+    "expected_category": "parseable_json"
+  },
+  {
+    "id": "output_no_json",
+    "type": "output",
+    "path": "outputs/no_json_at_all.txt",
+    "expected_category": "parse_error"
+  }
+]

@@ -1,0 +1,5 @@
+Review start: please note the portfolio is exposed to volatility.
+
+{"meta":{"tone":"expert"},"summary":"The portfolio is growth-oriented with limited downside protection.","good_thing":"The holdings are spread across multiple asset classes.","improvement":"Add more defensive exposure and define rebalancing rules.","verdict":"Aggressive"}
+
+Review end.

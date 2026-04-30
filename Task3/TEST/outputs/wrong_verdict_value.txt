@@ -1,0 +1,6 @@
+{
+  "summary": "The portfolio is speculative and would be uncomfortable in a downturn.",
+  "good_thing": "The allocation is at least diversified across several risky assets.",
+  "improvement": "Reduce concentration and add a stable reserve.",
+  "verdict": "Very Aggressive"
+}

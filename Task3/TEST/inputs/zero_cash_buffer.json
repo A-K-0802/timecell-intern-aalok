@@ -1,0 +1,9 @@
+{
+  "total_value_inr": 3200000,
+  "monthly_expenses_inr": 140000,
+  "assets": [
+    {"name": "US Equity", "allocation_pct": 45, "expected_crash_pct": -40},
+    {"name": "India Equity", "allocation_pct": 35, "expected_crash_pct": -35},
+    {"name": "Crypto", "allocation_pct": 20, "expected_crash_pct": -75}
+  ]
+}

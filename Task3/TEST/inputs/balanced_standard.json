@@ -1,0 +1,11 @@
+{
+  "total_value_inr": 10000000,
+  "monthly_expenses_inr": 80000,
+  "assets": [
+    {"name": "NIFTY50 Index Fund", "allocation_pct": 35, "expected_crash_pct": -38},
+    {"name": "Large Cap Equity", "allocation_pct": 25, "expected_crash_pct": -30},
+    {"name": "Government Bonds", "allocation_pct": 25, "expected_crash_pct": -8},
+    {"name": "Gold ETF", "allocation_pct": 10, "expected_crash_pct": -15},
+    {"name": "Cash", "allocation_pct": 5, "expected_crash_pct": 0}
+  ]
+}

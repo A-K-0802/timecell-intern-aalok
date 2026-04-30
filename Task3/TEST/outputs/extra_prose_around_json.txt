@@ -1,0 +1,10 @@
+Here is the review you asked for.
+
+{
+  "summary": "The portfolio is resilient, with most capital in defensive holdings.",
+  "good_thing": "The cash and debt exposure reduce drawdown risk.",
+  "improvement": "Add a little more growth exposure if the long-term goal is wealth creation.",
+  "verdict": "Conservative"
+}
+
+Overall, I would keep it simple and review quarterly.

@@ -1,0 +1,1 @@
+{'summary': 'The portfolio is fairly balanced.', 'good_thing': 'There is some diversification.', 'improvement': 'Add a bit more cash.', 'verdict': 'Balanced',}

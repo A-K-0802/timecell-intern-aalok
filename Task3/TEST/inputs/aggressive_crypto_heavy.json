@@ -1,0 +1,11 @@
+{
+  "total_value_inr": 4500000,
+  "monthly_expenses_inr": 70000,
+  "assets": [
+    {"name": "BTC", "allocation_pct": 30, "expected_crash_pct": -80},
+    {"name": "ETH", "allocation_pct": 20, "expected_crash_pct": -85},
+    {"name": "US Tech ETF", "allocation_pct": 25, "expected_crash_pct": -45},
+    {"name": "Small Cap Equity", "allocation_pct": 15, "expected_crash_pct": -50},
+    {"name": "Cash", "allocation_pct": 10, "expected_crash_pct": 0}
+  ]
+}

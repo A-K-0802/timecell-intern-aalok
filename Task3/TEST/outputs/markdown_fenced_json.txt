@@ -1,0 +1,8 @@
+```json
+{
+  "summary": "This portfolio leans slightly aggressive but still has some defensive assets.",
+  "good_thing": "The allocation is diversified across multiple risk buckets.",
+  "improvement": "Consider trimming volatile assets if the goal is capital preservation.",
+  "verdict": "Aggressive"
+}
+```

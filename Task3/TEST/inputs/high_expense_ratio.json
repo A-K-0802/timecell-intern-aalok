@@ -1,0 +1,10 @@
+{
+  "total_value_inr": 2400000,
+  "monthly_expenses_inr": 260000,
+  "assets": [
+    {"name": "Large Cap Equity", "allocation_pct": 40, "expected_crash_pct": -28},
+    {"name": "Balanced Fund", "allocation_pct": 25, "expected_crash_pct": -18},
+    {"name": "Debt Fund", "allocation_pct": 25, "expected_crash_pct": -7},
+    {"name": "Cash", "allocation_pct": 10, "expected_crash_pct": 0}
+  ]
+}
