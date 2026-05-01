@@ -94,3 +94,8 @@ Install the dependencies listed in `requirements.txt`:
 ```bash
 pip install -r requirements.txt
 ```
+
+
+## Explaination of TASK 2
+
+Loom link - https://www.loom.com/share/5a084188685744ddaf500a544fb95b67

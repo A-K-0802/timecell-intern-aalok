@@ -71,3 +71,8 @@ Copilot was used to help structure the solution, keep the logic modular, and doc
 - The solution handles empty assets, zero monthly expenses, and general input validation.
 - Allocation percentages are validated strictly and must stay within the inclusive range 0 to 100.
 - The required `compute_risk_metrics(portfolio)` function returns the severe crash metrics dictionary.
+
+
+## Explaination of TASK1
+
+Loom link - https://www.loom.com/share/dffb030ef5ea421eb2b815591c8c5b01
