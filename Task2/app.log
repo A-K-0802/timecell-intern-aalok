@@ -39,3 +39,22 @@
 [2026-05-01 22:32:28,564] ERROR: Using N/A row for BITDOIN after fetch failure
 [2026-05-01 22:32:31,073] INFO: Fetched stock/index TCS (TCS.NS)
 [2026-05-01 22:32:31,075] INFO: Task 2 run completed
+[2026-05-01 23:11:28,868] INFO: Fetched crypto SOL (solana)
+[2026-05-01 23:11:29,292] INFO: Fetched crypto BTC (bitcoin)
+[2026-05-01 23:11:30,801] INFO: Fetched stock/index TCS (TCS.NS)
+[2026-05-01 23:11:30,804] INFO: Task 2 run completed
+[2026-05-01 23:11:45,658] INFO: Fetched crypto SOL (solana)
+[2026-05-01 23:11:45,769] ERROR: Failed to fetch crypto BIDOIN (bidoin): 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bidoin&vs_currencies=usd
+[2026-05-01 23:11:45,770] ERROR: Using N/A row for BIDOIN after fetch failure
+[2026-05-01 23:11:46,751] INFO: Fetched stock/index TCS (TCS.NS)
+[2026-05-01 23:11:46,755] INFO: Task 2 run completed
+[2026-05-01 23:27:06,154] INFO: Fetched crypto SOL (solana)
+[2026-05-01 23:27:06,604] INFO: Fetched crypto BTC (bitcoin)
+[2026-05-01 23:27:07,953] INFO: Fetched stock/index TCS (TCS.NS)
+[2026-05-01 23:27:07,955] INFO: Task 2 run completed
+[2026-05-01 23:27:23,148] INFO: Fetched crypto SOL (solana)
+[2026-05-01 23:27:23,247] ERROR: Failed to fetch crypto BTC (bitcoin): 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd
+[2026-05-01 23:27:23,248] ERROR: Using N/A row for BTC after fetch failure
+[2026-05-01 23:27:27,087] ERROR: Failed to fetch stock/index TCSEEFA (tcseefa): 'PriceHistory' object has no attribute '_dividends'
+[2026-05-01 23:27:27,088] ERROR: Using N/A row for TCSEEFA after fetch failure
+[2026-05-01 23:27:27,090] INFO: Task 2 run completed

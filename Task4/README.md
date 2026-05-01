@@ -12,6 +12,10 @@ No code in Task1 or Task3 is modified.
 
 ---
 
+## Reason for this solution
+
+A lot of users may not be comfortable in working with terminal/CLI based outputs so, working with plots and graphs is a great way for users to visualize the problems within a portfolio. It reduces friction between the user and the product and makes the output easier to understand.
+
 ## What It Does
 
 1. Loads a portfolio from JSON or Python file.
