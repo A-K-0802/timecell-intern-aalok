@@ -210,7 +210,7 @@ def _build_argument_parser() -> argparse.ArgumentParser:
         "--python_input",
         dest="python_input",
         nargs="?",
-        const="python_dict_input.py",
+        const=".\Task1\python_dict_input.py",
         help="Path to a Python file that defines a portfolio dictionary named portfolio. Defaults to python_dict_input.py when used without a path.",
     )
     parser.add_argument(

@@ -21,3 +21,21 @@
 [2026-04-30 00:19:36,113] ERROR: Using N/A row for BTC after fetch failure
 [2026-04-30 00:19:37,830] INFO: Fetched stock/index TCS (TCS.NS)
 [2026-04-30 00:19:37,833] INFO: Task 2 run completed
+[2026-05-01 22:24:23,231] INFO: Fetched crypto BTC (bitcoin)
+[2026-05-01 22:24:23,331] INFO: Fetched crypto ETH (ethereum)
+[2026-05-01 22:24:35,537] INFO: Fetched stock/index NIFTY50 (^NSEI)
+[2026-05-01 22:24:35,543] INFO: Task 2 run completed
+[2026-05-01 22:24:56,595] ERROR: Please provide at least 3 assets in total.
+[2026-05-01 22:25:30,375] INFO: Fetched crypto BTC (bitcoin)
+[2026-05-01 22:25:30,896] INFO: Fetched crypto SOL (solana)
+[2026-05-01 22:25:32,363] INFO: Fetched stock/index TCS (TCS.NS)
+[2026-05-01 22:25:32,372] INFO: Task 2 run completed
+[2026-05-01 22:32:09,378] INFO: Fetched crypto SOL (solana)
+[2026-05-01 22:32:10,247] INFO: Fetched crypto BTC (bitcoin)
+[2026-05-01 22:32:12,573] INFO: Fetched stock/index TCS (TCS.NS)
+[2026-05-01 22:32:12,576] INFO: Task 2 run completed
+[2026-05-01 22:32:27,737] INFO: Fetched crypto SOL (solana)
+[2026-05-01 22:32:28,563] ERROR: Failed to fetch crypto BITDOIN (bitdoin): No price found for bitdoin
+[2026-05-01 22:32:28,564] ERROR: Using N/A row for BITDOIN after fetch failure
+[2026-05-01 22:32:31,073] INFO: Fetched stock/index TCS (TCS.NS)
+[2026-05-01 22:32:31,075] INFO: Task 2 run completed
